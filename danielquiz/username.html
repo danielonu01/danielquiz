@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username</title>
+    <link href="../danquiz/styking.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <h2>QUIZ GAME</h2>
+        <button>LeaderBoard</button>
+    </div>
+    <div id="inbody">
+        <label id="lim">Please enter your name: </label><br>
+        <input type="text" id="usert"><br>
+        <button type="button" id="bbt" onclick="user()">Welcome</button>
+    </div>
+    
+    <div class="foot">
+        <h3>QUIZ GAME</h3>
+    </div>
+<script>
+    function user(){
+        var usert = document.querySelector("#usert");
+        alert("hello", usert);
+        window.location.href="homepage.html";   
+    }
+</script>
+</body>
+</html>
